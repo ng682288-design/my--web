@@ -131,8 +131,8 @@ export default function Home() {
                 cursor: "pointer",
                 transition: "0.3s"
               }}
-              onMouseEnter={e => e.target.style.transform = "scale(1.1)"}
-              onMouseLeave={e => e.target.style.transform = "scale(1)"}
+             onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
             >
               📖 Đọc sách
             </button>
@@ -149,8 +149,8 @@ export default function Home() {
                 cursor: "pointer",
                 transition: "0.3s"
               }}
-              onMouseEnter={e => e.target.style.transform = "scale(1.1)"}
-              onMouseLeave={e => e.target.style.transform = "scale(1)"}
+             onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
             >
               🎧 Nghe theo chương
             </button>
@@ -199,8 +199,8 @@ export default function Home() {
                   cursor: "pointer",
                   transition: "0.3s"
                 }}
-                onMouseEnter={e => e.target.style.background = "#ddd"}
-                onMouseLeave={e => e.target.style.background = "#eee"}
+                onMouseEnter={e => e.currentTarget.style.transform = "scale(1.1)"}
+                onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
               >
                 ▶️ {chap.name}
               </button>
