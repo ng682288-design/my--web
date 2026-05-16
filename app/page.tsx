@@ -13,8 +13,8 @@ export default function Home() {
   const books = [
     {
       title: "Vừa nhắm mắt vừa mở cửa sổ",
-      image: "/image/audio/public/audio/public/book3.jpg",
-      pdf: "/audio/public/audio/public/book3.pdf",
+      image: "/audio/public/book3.jpg",
+      pdf: "/audio/public/book3.pdf",
       chaptersAudio: [
         { name: "Chương 1", file: "/audio/vuanhammatvuamocuaso.mp3" },
          ],
@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       title: "Chiếc lá cuối cùng",
-      image: "/image/audio/public/book1.jpg",
+      image: "/audio/public/book1.jpg",
       pdf: "/audio/public/book1.pdf",
       chaptersAudio: [
         { name: "Chương 1", file: "/audio/chieclacuoicung.mp3" },
@@ -37,7 +37,7 @@ export default function Home() {
     },
     {
       title: "Dế Mèn phiêu lưu ký",
-      image: "/image/audio/public/book2.jpg",
+      image: "/audio/public/book2.jpg",
       pdf: "/audio/public/book2.pdf",
       chaptersAudio: [
         { name: "Chương 1", file: "/audio/public/demenchuong1.mp3" },
