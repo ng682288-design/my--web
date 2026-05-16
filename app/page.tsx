@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       title: "Chiếc lá cuối cùng",
-      image: "/public/book1.jpg",
+      image: /book1.jpg",
       pdf: "/audio/public/book1.pdf",
       chaptersAudio: [
         { name: "Chương 1", file: "/audio/chieclacuoicung.mp3" },
