@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       title: "Chiếc lá cuối cùng",
-      image: "/audio/public/book1.jpg",
+      image: "/public/book1.jpg",
       pdf: "/audio/public/book1.pdf",
       chaptersAudio: [
         { name: "Chương 1", file: "/audio/chieclacuoicung.mp3" },
@@ -40,10 +40,10 @@ export default function Home() {
       image: "/audio/public/book2.jpg",
       pdf: "/audio/public/book2.pdf",
       chaptersAudio: [
-        { name: "Chương 1", file: "/audio/public/demenchuong1.mp3" },
-        { name: "Chương 2", file: "/audio/public/demenchuong2.mp3" },
-        { name: "Chương 3", file: "/audio/public/demenchuong3.mp3" },
-        { name: "Chương 4", file: "/audio/public/demenchuong4.mp3" },
+        { name: "Chương 1", file: "/audio/demenchuong1.mp3" },
+        { name: "Chương 2", file: "/audio/demenchuong2.mp3" },
+        { name: "Chương 3", file: "/audio/demenchuong3.mp3" },
+        { name: "Chương 4", file: "/audio/demenchuong4.mp3" },
         ],
       views: "300",
       likes: "50",
